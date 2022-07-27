@@ -4,11 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<!-- css 파일 경로 설정 -->
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/test.css">
 <title>helloworld</title>
 </head>
 <body>
-	<div class="test">HelloWorld!!</div> <br>
+	<div class="test">HelloWorld!!</div><br>
+	<!-- img 파일 경로 설정 -->
 	<img src="${pageContext.request.contextPath}/resources/img/IU.jpg">
 
 </body>
